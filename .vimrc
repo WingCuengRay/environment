@@ -179,6 +179,8 @@ nmap <F7> : call RefreshCtags()<ESC>
 set tabstop=4
 set softtabstop=4
 set shiftwidth=4
+set autoindent 
+set syntax
 
 "Tab 表示切换至下一个窗口
 nmap <tab> <ESC>:tabnext<CR>
